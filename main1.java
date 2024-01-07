@@ -1,5 +1,6 @@
-class main1{
+import java.util.Scanner;
 
+class main1{
 public static void main(String []args){
     
     //single comments
@@ -12,12 +13,18 @@ public static void main(String []args){
     String d="Hello";
     boolean e=true;
 
-    System.out.println(a);
-    System.out.println(b);
-    System.out.println(c);
-    System.out.println(d);
-    System.out.println(e);
-    
- 
+    Scanner s = new Scanner(System.in);
+        for(int i=1;i<=1;i++){
+            System.out.println("Enter number");
+            a=s.nextInt();
+            b=s.nextDouble();
+            
+            System.out.println(a);
+            System.out.println(b);
+            System.out.println(c);
+            System.out.println(d);
+            System.out.println(e);
+        }
+s.close();
 }
 }
